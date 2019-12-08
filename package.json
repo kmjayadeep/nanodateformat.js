@@ -1,6 +1,6 @@
 {
-  "name": "simpledateformat",
-  "version": "1.0.0",
+  "name": "nanodateformat",
+  "version": "0.0.1",
   "description": "Simple date formatter for js",
   "main": "index.js",
   "scripts": {

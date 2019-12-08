@@ -1,7 +1,7 @@
-Simple Date Format
+Nano Date Format
 =========
 
-A simple date & time format for javascript
+A simple and lightweight date & time format for javascript
 
 ## But.. Why?
 
@@ -9,13 +9,13 @@ Handling time and date format in javascript has always been a trouble. In atleas
 
 ## Installation
 
-  `npm install simpledateformat.js`
+  `npm install nanodateformat`
 
 ## Usage
 
 Import functions
 ```javascript
-    const sdf = require('simpledateformat.js');
+    const sdf = require('nanodateformat');
     const formatTime = sdf.formatTime;
     const formatDate = sdf.formatDate;
     const formatDateTime = sdf.formatDateTime
@@ -24,7 +24,7 @@ Import functions
 Or using destructuring
 
 ```javascript
-    const { formatDate, formatTime, formatDateTime } = require('simpledateformat.js');
+    const { formatDate, formatTime, formatDateTime } = require('nanodateformat');
 ```
 
 Date format
