@@ -3,6 +3,8 @@ Nano Date Format
 
 A simple and lightweight date & time format for javascript
 
+[![Build Status](https://travis-ci.org/kmjayadeep/nanodateformat.js.svg?branch=master)](https://travis-ci.org/kmjayadeep/nanodateformat.js)
+
 ## But.. Why?
 
 Handling time and date format in javascript has always been a trouble. In atleast a few cases, we dont care much about the format and want to show something readable for the end user. This library is not intended to be a replacement for an extensive library like moment.js, but a lightweight solution under 100 lines of javascript to show a readable time and date.
