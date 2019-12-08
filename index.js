@@ -1,11 +1,12 @@
 const padZero = n => n < 9 ? `0${n}` : n;
 
-exports.formatDate = (dateObj) => {
+exports.formatDate = (dateObj, separator) => {
+    separator = separator || '-';
     const yyyy = dateObj.getFullYear();
     const MM = padZero(dateObj.getMonth() + 1);
     const dd = padZero(dateObj.getDate());
-    
-    return `${dd}-${MM}-${yyyy}`;
+
+    return `${dd}${separator}${MM}${separator}${yyyy}`;
 }
 
 exports.formatTime = (dateObj) => {
@@ -17,7 +18,9 @@ exports.formatTime = (dateObj) => {
     return `${hh}:${mm} ${a}`;
 }
 
-exports.formatDateTime = (dateObj) => {
+exports.formatDateTime = (dateObj, separator) => {
+    separator = separator || '-';
+
     const yyyy = dateObj.getFullYear();
     const MM = padZero(dateObj.getMonth() + 1);
     const dd = padZero(dateObj.getDate());
@@ -26,6 +29,6 @@ exports.formatDateTime = (dateObj) => {
     const a = hours > 12 ? 'PM' : 'AM';
     const mm = padZero(dateObj.getMinutes());
     
-    return `${dd}-${MM}-${yyyy} ${hh}:${mm} ${a}`;
+    return `${dd}${separator}${MM}${separator}${yyyy} ${hh}:${mm} ${a}`;
 
 }
