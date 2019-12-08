@@ -1,0 +1,24 @@
+{
+  "name": "simpledateformat",
+  "version": "1.0.0",
+  "description": "Simple date formatter for js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmjayadeep/simpledateformat.js.git"
+  },
+  "author": "Jayadeep KM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmjayadeep/simpledateformat.js/issues"
+  },
+  "homepage": "https://github.com/kmjayadeep/simpledateformat.js#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
